@@ -1,7 +1,7 @@
 Import-Module ImportExcel
 
 # Output folder
-$OutputFolder = "C:\Users\a.gadallah\OneDrive - Al Jasser Holding\Desktop\May\Oracle"
+$OutputFolder = "C:\Users\"
 
 if (!(Test-Path $OutputFolder)) {
     New-Item -ItemType Directory -Path $OutputFolder | Out-Null
